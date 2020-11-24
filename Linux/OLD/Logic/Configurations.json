@@ -1,0 +1,23 @@
+{
+  "ThermalCam": {
+    "MY_ID": "ThermalCameraDev01",
+
+    "DIAGNOSTICS": {
+      "LOG_PATH"        :"/home/ThermalCam/DIAGNOSTICS/LOGS/",
+      "VIDEO_LOG_PATH"  : "/home/ThermalCam/DIAGNOSTICS/RECORDINGS/",
+      "IMAGE_LOG_PATH"  : "/home/GLM/ThermalCam/IMAGES/",
+      "DetailLogEnabled": true
+    },
+
+    "Recording": {
+      "Resolution_Width"  : 640,
+      "Resolution_Height" : 480,
+      "Recording_Timeout" : 8,
+      "FramePerSecond"    : 15,
+      "Rotation"          : 0
+    },
+    "UDP": {
+      "ServerPort": 4000
+    }
+  }
+}
